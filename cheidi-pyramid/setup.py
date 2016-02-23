@@ -15,9 +15,9 @@ requires = [
     'waitress',
     ]
 
-setup(name='cheidi',
+setup(name='cheidi-pyramid',
       version='0.0',
-      description='cheidi',
+      description='cheidi-pyramid',
       long_description=README + '\n\n' + CHANGES,
       classifiers=[
         "Programming Language :: Python",
@@ -34,9 +34,9 @@ setup(name='cheidi',
       zip_safe=False,
       install_requires=requires,
       tests_require=requires,
-      test_suite="cheidi",
+      test_suite="cheidi_pyramid",
       entry_points="""\
       [paste.app_factory]
-      main = cheidi:main
+      main = cheidi_pyramid:main
       """,
       )
