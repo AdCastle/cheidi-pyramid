@@ -2,7 +2,8 @@
 
 html,
 body {
-    height: 100%;
+    margin: 0;
+    min-height: 100%;
 }
 
 body {
@@ -37,11 +38,12 @@ p {
 .font-bold {
   font-weight: 700;
 }
-.starter-template {
-  margin-top: 250px;
-}
 .starter-template .content {
+  margin-top: 25%;
   margin-left: 10px;
+}
+.starter-template.instagram .content {
+  margin-top: 60px;
 }
 .starter-template .content h1 {
   margin-top: 10px;
@@ -57,6 +59,27 @@ p {
 .starter-template .content .lead .font-normal {
   color: #ffffff;
 }
+
+.starter-template.instagram .content {
+  color: #000;
+}
+
+.grams {
+  float: left;
+  margin-bottom: 1em;
+  box-shadow: 10px 10px 5px #888888;
+  max-width: 640px;
+}
+
+.caption {
+    padding: 1em;
+    font-size: 2em;
+    max-width: 640px;
+    background: #eee;
+    word-break: break-all;
+    margin-bottom: 0;
+}
+
 .starter-template .links {
   float: right;
   right: 0;
