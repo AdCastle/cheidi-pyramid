@@ -28,13 +28,13 @@
 
         <div class="cheidi">
           <div id="menu">
-            <div class="logo">
-                Logo
-            </div>
+            <a class="logo" href="/">
+            </a>
             <ul>
-                <li><a href="">Venue</a></li>
-                <li><a href="">Wedding Gifts</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="">The Barns</a></li>
+                <li><a href="">The Island</a></li>
+                <li><a href="">The Day</a></li>
+                <li><a href="">Gifts</a></li>
             </ul>
           </div>
           <div class="container">
@@ -50,6 +50,7 @@
         <!-- Placed at the end of the document so the pages load faster -->
         <script src="//oss.maxcdn.com/libs/jquery/1.10.2/jquery.min.js"></script>
         <script src="//oss.maxcdn.com/libs/twitter-bootstrap/3.0.3/js/bootstrap.min.js"></script>
+        <script src="${request.static_url('cheidi_pyramid:static/konami.js')}"></script>
         <script src="${request.static_url('cheidi_pyramid:static/cheidi.js')}"></script>
       </body>
     </html>
