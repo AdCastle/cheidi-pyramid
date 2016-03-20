@@ -1,66 +1,27 @@
-<!DOCTYPE html>
-<html lang="${request.locale_name}">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="pyramid web application">
-    <meta name="author" content="Pylons Project">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+        xmlns:tal="http://xml.zope.org/namespaces/tal"
+        xmlns:metal="http://xml.zope.org/namespaces/metal"
+        lang="en"
+        metal:use-macro="main.macros['master']">
+        <body>
+           <metal:block fill-slot="body">
+              <div class="instagram">
+                  <tal:pics tal:condition="python: 'pics' in media.keys()">
+                      <tal:grams tal:condition="python: not:media['pics']">
+                        <p tal:condition="media.tag">No current images, please use the tag #${media.tag}</p>
+                        <p tal:condition="not: media.tag">Please use the parameter ${url}</p>
+                      </tal:grams>
+                      <div class="grams" tal:repeat="pic media.pics">
+                        <img src="${pic.get_standard_resolution_url()}" />
+                        <p class="caption">${pic.caption.text}</p>
 
-    <title>Heidi and Charlie - Instagram</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="//oss.maxcdn.com/libs/twitter-bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
-    <!-- Custom styles for this scaffold -->
-    <link href="${request.static_url('cheidi_pyramid:static/theme.css')}" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="//oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
-
-
-  </head>
-
-  <body>
-
-    <div class="starter-template instagram">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-2">
-          </div>
-          <div class="col-md-10">
-            <div class="content clearfix">
-              <h1><span class="font-semi-bold">Heidi and Charlie</span> <span class="smaller">18th June 2016</span></h1>
-              <tal:pics tal:condition="python: 'pics' in media.keys()">
-                  <tal:grams tal:condition="python: not:media['pics']">
-                    <p tal:condition="media.tag">No current images, please use the tag #${media.tag}</p>
-                    <p tal:condition="not: media.tag">Please use the parameter ${url}</p>
-                  </tal:grams>
-                  <div class="grams" tal:repeat="pic media.pics">
-                    <img src="${pic.get_standard_resolution_url()}" />
-                    <p class="caption">${pic.caption.text}</p>
-
-                  </div>
-              </tal:pics>
-              <tal:pics tal:condition="python: 'pics' not in media.keys()">
-                  Error
-              </tal:pics>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="//oss.maxcdn.com/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="//oss.maxcdn.com/libs/twitter-bootstrap/3.0.3/js/bootstrap.min.js"></script>
-    <script src="${request.static_url('cheidi_pyramid:static/grams.js')}"></script>
-
-  </body>
+                      </div>
+                  </tal:pics>
+                  <tal:pics tal:condition="python: 'pics' not in media.keys()">
+                      Error
+                  </tal:pics>
+              </div>
+           </metal:block>
+           <script src="${request.static_url('cheidi_pyramid:static/grams.js')}"></script>
+        </body>
 </html>

@@ -38,7 +38,9 @@
             </ul>
           </div>
           <div class="container">
-              <metal:slot define-slot="body"></metal:slot>
+              <div class="row">
+                  <metal:slot define-slot="body"></metal:slot>
+              </div>
           </div>
         </div>
 
