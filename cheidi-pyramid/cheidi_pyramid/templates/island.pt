@@ -7,6 +7,25 @@
            <metal:block fill-slot="body">
               <div class="col-md-12"  id="island">
                 <div class="content">
+                    <h2>Stay</h2>
+                    <p></p>
+
+                    <h2>Eat</h2>
+                    <ul>
+                        <li><a href="http://www.thetavernersgodshill.co.uk/">The Taverners</a></li>
+                        <li><a href="https://www.facebook.com/FollyEastCowes/">Folly Inn</a></li>
+                        <li><a href="http://www.bargemansrest.com/">The Bargeman's Rest</a></li>
+                        <li><a href="http://arretonbarns.co.uk/the-dairymans-daughter">The Dairyman's Daughter</a></li>
+                        <li><a href="http://tapnellfarm.com/eat/">The Cow Co</a></li>
+                    </ul>
+                    <h2>Walks</h2>
+                    <ul>
+                        <li>Steephill Cove, Ventnor</li>
+                        <li>Tennyson Down, Freshwater</li>
+                        <li>The Needles Battery</li>
+                        <li>Carisbrooke Castle</li>
+                    </ul>
+                    <h2>Swim</h2>
                     <p></p>
               </div>
            </metal:block>

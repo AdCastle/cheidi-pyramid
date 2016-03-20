@@ -28,7 +28,7 @@
 
         <div class="cheidi">
           <div id="menu">
-            <a class="logo" href="/">
+            <a class="logo" href="/" alt="Home" title="Home">
             </a>
             <ul>
                 <li><a class="barn" href="/the-barn">The Barn</a></li>

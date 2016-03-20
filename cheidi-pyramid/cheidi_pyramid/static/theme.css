@@ -166,6 +166,11 @@ p {
   float: right;
   right: 0;
 }
+
+#barn .content iframe {
+    max-width: 800px;
+}
+
 @media (max-width: 1199px) {
   .cheidi .content h1 {
     font-size: 45px;
