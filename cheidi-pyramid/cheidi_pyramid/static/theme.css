@@ -7,7 +7,7 @@ body {
 }
 
 body {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Baskerville, Garamond, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   color: #ffffff;
 background: -moz-linear-gradient(top,  rgba(255,255,255,0.27) 0%, rgba(0,51,102,0.85) 80%, rgba(0,13,26,1) 100%); /* FF3.6-15 */
@@ -23,7 +23,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Baskerville, Garamond, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
 }
 p {
@@ -38,29 +38,29 @@ p {
 .font-bold {
   font-weight: 700;
 }
-.starter-template .content {
+.cheidi .content {
   margin-top: 25%;
   margin-left: 10px;
 }
-.starter-template.instagram .content {
+.cheidi.instagram .content {
   margin-top: 60px;
 }
-.starter-template .content h1 {
+.cheidi .content h1 {
   margin-top: 10px;
   font-size: 60px;
 }
-.starter-template .content h1 .smaller {
+.cheidi .content h1 .smaller {
   font-size: 40px;
 }
-.starter-template .content .lead {
+.cheidi .content .lead {
   font-size: 25px;
   color: #f2b7bd;
 }
-.starter-template .content .lead .font-normal {
+.cheidi .content .lead .font-normal {
   color: #ffffff;
 }
 
-.starter-template.instagram .content {
+.cheidi.instagram .content {
   color: #000;
 }
 
@@ -80,45 +80,68 @@ p {
     margin-bottom: 0;
 }
 
-.starter-template .links {
+#menu ul {
+    list-style: none;
+}
+
+#menu ul li {
+    display: inline;
+    margin-right: 2em;
+}
+
+#menu.fixed {
+    position:fixed;
+    top:0;
+    background: #fff;
+    opacity: 0.4;
+    width: 100%;
+    float: none;
+    right: 0;
+    border-bottom: 1px solid #eee;
+    margin-top: 0;
+    padding-top: 1em;
+}
+
+
+.cheidi .links {
   float: right;
   right: 0;
   margin-top: 125px;
 }
-.starter-template .links ul {
+.cheidi .links ul {
   display: block;
   padding: 0;
   margin: 0;
 }
-.starter-template .links ul li {
+.cheidi .links ul li {
   list-style: none;
   display: inline;
   margin: 0 10px;
 }
-.starter-template .links ul li:first-child {
+.cheidi .links ul li:first-child {
   margin-left: 0;
 }
-.starter-template .links ul li:last-child {
+.cheidi .links ul li:last-child {
   margin-right: 0;
 }
-.starter-template .links ul li.current-version {
+.cheidi .links ul li.current-version {
   color: #f2b7bd;
   font-weight: 400;
 }
-.starter-template .links ul li a {
+.cheidi .links ul li a {
   color: #ffffff;
 }
-.starter-template .links ul li a:hover {
+.cheidi .links ul li a:hover {
   text-decoration: underline;
 }
-.starter-template .links ul li .icon-muted {
+.cheidi .links ul li .icon-muted {
   color: #eb8b95;
   margin-right: 5px;
 }
-.starter-template .links ul li:hover .icon-muted {
+.cheidi .links ul li:hover .icon-muted {
   color: #ffffff;
 }
-.starter-template .copyright {
+.cheidi .copyright {
   margin-top: 10px;
   font-size: 0.9em;
   color: #f2b7bd;
@@ -127,59 +150,59 @@ p {
   right: 0;
 }
 @media (max-width: 1199px) {
-  .starter-template .content h1 {
+  .cheidi .content h1 {
     font-size: 45px;
   }
-  .starter-template .content h1 .smaller {
+  .cheidi .content h1 .smaller {
     font-size: 30px;
   }
-  .starter-template .content .lead {
+  .cheidi .content .lead {
     font-size: 20px;
   }
 }
 @media (max-width: 991px) {
-  .starter-template {
+  .cheidi {
     margin-top: 60px;
   }
-  .starter-template .logo {
+  .cheidi .logo {
     margin: 40px auto;
   }
-  .starter-template .content {
+  .cheidi .content {
     margin-left: 0;
     text-align: center;
   }
-  .starter-template .content h1 {
+  .cheidi .content h1 {
     margin-bottom: 20px;
   }
-  .starter-template .links {
+  .cheidi .links {
     float: none;
     text-align: center;
     margin-top: 60px;
   }
-  .starter-template .copyright {
+  .cheidi .copyright {
     float: none;
     text-align: center;
   }
 }
 @media (max-width: 767px) {
-  .starter-template .content h1 .smaller {
+  .cheidi .content h1 .smaller {
     font-size: 25px;
     display: block;
   }
-  .starter-template .content .lead {
+  .cheidi .content .lead {
     font-size: 16px;
   }
-  .starter-template .links {
+  .cheidi .links {
     margin-top: 40px;
   }
-  .starter-template .links ul li {
+  .cheidi .links ul li {
     display: block;
     margin: 0;
   }
-  .starter-template .links ul li .icon-muted {
+  .cheidi .links ul li .icon-muted {
     display: none;
   }
-  .starter-template .copyright {
+  .cheidi .copyright {
     margin-top: 20px;
   }
 }

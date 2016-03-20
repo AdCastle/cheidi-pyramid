@@ -1,12 +1,15 @@
 from pyramid.view import view_config
 from instagram.client import InstagramAPI
-import pyramid
+from pyramid.renderers import get_renderer
 
 
 @view_config(route_name='home',
-             renderer='templates/mytemplate.pt')
+             renderer='templates/home.pt')
 def my_view(request):
-    return {'project': 'cheidi-pyramid'}
+    main = get_renderer('templates/template.pt')\
+        .implementation()
+    return {'main': main,
+            'project': 'cheidi-pyramid'}
 
 
 def _instagram(tag):
@@ -38,5 +41,8 @@ def index(request):
         media['pics'] = _instagram(tag)
         if count:
             media['pics'] = media['pics'][:int(count)]
-    return {'media': media,
+    main = get_renderer('templates/template.pt')\
+        .implementation()
+    return {'main': main,
+            'media': media,
             'url': url}
