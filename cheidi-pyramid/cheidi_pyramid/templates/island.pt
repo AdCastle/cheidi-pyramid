@@ -1,0 +1,14 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+        xmlns:tal="http://xml.zope.org/namespaces/tal"
+        xmlns:metal="http://xml.zope.org/namespaces/metal"
+        lang="en"
+        metal:use-macro="main.macros['master']">
+        <body>
+           <metal:block fill-slot="body">
+              <div class="col-md-12">
+                <div class="content">
+                    <p></p>
+              </div>
+           </metal:block>
+        </body>
+</html>
