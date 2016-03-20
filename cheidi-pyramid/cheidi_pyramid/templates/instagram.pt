@@ -5,7 +5,7 @@
         metal:use-macro="main.macros['master']">
         <body>
            <metal:block fill-slot="body">
-              <div class="instagram">
+              <div class="instagram col-md-12" id="insta">
                   <tal:pics tal:condition="python: 'pics' in media.keys()">
                       <tal:grams tal:condition="python: not:media['pics']">
                         <p tal:condition="media.tag">No current images, please use the tag #${media.tag}</p>

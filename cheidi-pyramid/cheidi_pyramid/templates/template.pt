@@ -31,10 +31,10 @@
             <a class="logo" href="/">
             </a>
             <ul>
-                <li><a href="">The Barns</a></li>
-                <li><a href="">The Island</a></li>
-                <li><a href="">The Day</a></li>
-                <li><a href="">Gifts</a></li>
+                <li><a class="barn" href="/the-barn">The Barn</a></li>
+                <li><a class="island" href="/the-island">The Island</a></li>
+                <li><a class="day" href="/the-day">The Day</a></li>
+                <li><a class="gifts" href="/gifts">Gifts</a></li>
             </ul>
           </div>
           <div class="container">

@@ -46,3 +46,39 @@ def index(request):
     return {'main': main,
             'media': media,
             'url': url}
+
+
+@view_config(route_name='the-barn',
+             renderer='templates/barn.pt')
+def the_barn(request):
+    main = get_renderer('templates/template.pt')\
+        .implementation()
+    return {'main': main,
+            'project': 'cheidi-pyramid'}
+
+
+@view_config(route_name='the-island',
+             renderer='templates/island.pt')
+def the_island(request):
+    main = get_renderer('templates/template.pt')\
+        .implementation()
+    return {'main': main,
+            'project': 'cheidi-pyramid'}
+
+
+@view_config(route_name='the-day',
+             renderer='templates/day.pt')
+def the_day(request):
+    main = get_renderer('templates/template.pt')\
+        .implementation()
+    return {'main': main,
+            'project': 'cheidi-pyramid'}
+
+
+@view_config(route_name='gifts',
+             renderer='templates/gifts.pt')
+def gifts(request):
+    main = get_renderer('templates/template.pt')\
+        .implementation()
+    return {'main': main,
+            'project': 'cheidi-pyramid'}

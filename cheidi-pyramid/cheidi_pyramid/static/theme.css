@@ -107,6 +107,11 @@ p {
     margin-right: 2em;
 }
 
+#menu .selected {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
 #menu.fixed {
     position:fixed;
     top:0;
@@ -187,7 +192,7 @@ p {
     margin-bottom: 100px;
   }
 
-  p {
+  ul, p {
     width: 88%;
   }
 
