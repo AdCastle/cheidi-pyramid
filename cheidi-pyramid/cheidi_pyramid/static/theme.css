@@ -125,6 +125,7 @@ p {
 
 #menu ul {
     list-style: none;
+    padding-left: 0;
 }
 
 #menu ul li {
@@ -262,7 +263,7 @@ img {
   }
 
   ul, p {
-    width: 88%;
+    width: 100%;
   }
   #menu ul li {
       display: block;
