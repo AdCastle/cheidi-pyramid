@@ -7,8 +7,35 @@
            <metal:block fill-slot="body">
               <div class="col-md-12"  id="island">
                 <div class="content">
+                    <div class="boat"></div>
+                    <div class="buoy"></div>
                     <h2>Stay</h2>
-                    <p></p>
+<h3>East Cowes & Cowes</h3>
+
+<ul>
+<li><a href="http://www.albertcottagehotel.com/">Albert Cottage Hotel</a> | Boutique Hotel</li>
+
+<li><a href="http://www.isleofwighttreehouse.com/">Into the Woods</a> | Tree House</li>
+
+<li><a href="http://www.bookcottages.com/cottages/100-30450-seagull-cottage.htm">Seagull Cottage</a> | Entire Home</li>
+
+<li><a href="http://www.onefiftycowes.co.uk/">OneFiftyCowes</a> | B&B</li>
+
+</ul>
+
+
+
+<h3>The Rest of the Island</h3>
+<ul>
+
+<li><a href="http://royalhoteliow.co.uk/">The Royal Hotel</a> | Boutique Hotel</li>
+
+<li><a href="http://www.oneholyrood.co.uk/">One Holyrood</a> | B&B</li>
+
+<li><a href="http://www.harbourside-iow.co.uk/">Harbourside View</a> | Houseboat</li>
+
+<li><a href="http://www.thefishbourne.co.uk/">The Fishbourne</a> | Public House</li>
+</ul>
 
                     <h2>Eat</h2>
                     <ul>
@@ -20,13 +47,36 @@
                     </ul>
                     <h2>Walks</h2>
                     <ul>
-                        <li>Steephill Cove, Ventnor</li>
-                        <li>Tennyson Down, Freshwater</li>
-                        <li>The Needles Battery</li>
-                        <li>Carisbrooke Castle</li>
+                        <li><span>Steephill Cove, Ventnor</span></li>
+                        <li><span>Tennyson Down, Freshwater</span></li>
+                        <li><span>The Needles Battery</span></li>
+                        <li><span>Carisbrooke Castle</span></li>
                     </ul>
                     <h2>Swim</h2>
                     <p></p>
+
+                    <h2>Getting to the Island</h2>
+                    <a name="getting-to-the-island"></a>
+
+<h3>From Abroad</h3>
+
+<strong>Closest Airport | Southampton</strong>
+<p>From <a href="http://www.southamptonairport.com/">Southampton Airport</a> there are trains to Southampton Central where a free bus can take you to the Red Jet terminal.</p>
+
+
+<h4>From Southampton</h4>
+<ul>
+<li><span>With Car | <a href="http://www.redfunnel.co.uk/">Red Funnel</a> to East Cowes</span></li>
+<li><span>On Foot | <a href="http://www.redfunnel.co.uk/ferry-travel/red-jet-service/">Red Jet</a> to Cowes</span></li>
+</ul>
+
+
+<h4>From Portsmouth</h4>
+<ul>
+<li><span>With Car | <a href="http://www.wightlink.co.uk/">Wightlink Ferries</a> to Fishbone
+<li><span>On Foot | <a href="http://www.wightlink.co.uk/">Wightlink Fast Cat</a> to Ryde
+</ul>
+
               </div>
            </metal:block>
         </body>

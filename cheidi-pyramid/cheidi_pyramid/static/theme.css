@@ -11,7 +11,7 @@ body {
   font-family: Baskerville, Garamond, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   background: url('/static/imgs/background.jpg') 50% 100% repeat-x;
-  background-size: 1280px 200px;
+  background-size: 100% 200px;
   font-size: 2em;
 }
 
@@ -83,6 +83,31 @@ p {
   box-shadow: 10px 10px 5px #888888;
   max-width: 640px;
 }
+
+.boat {
+  background: url('/static/imgs/boat.jpg') 50% 0% no-repeat;
+  max-width: 500px;
+  max-height: 500px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  opacity: 0.2;
+  padding: 20em 10em
+}
+
+.buoy {
+  background: url('/static/imgs/buoy.jpg') 50% 50% no-repeat;
+  background-size: 75%;
+  max-width: 500px;
+  max-height: 500px;
+  position: absolute;
+  right: 0;
+  margin-top: 1em;
+  bottom: 120px;
+  opacity: 0.2;
+  padding: 20em 10em;
+}
+
 
 .caption {
     padding: 1em;
@@ -178,6 +203,32 @@ img {
     border-bottom: 1px dotted #eee;
 }
 
+.cheidi .container ul {
+  text-align: center;
+  padding: 0;
+  margin: 1em 0;
+}
+.cheidi .container ul li {
+    list-style: none;
+}
+
+.cheidi .container ul li span,
+.cheidi .container ul li a{
+    position: relative;
+    padding-left: 0.5em;
+}
+.cheidi .container ul li span:before,
+.cheidi .container ul li a:before{
+    content: "\f105";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    padding-right: 0.5em;
+    position: absolute;
+    top: 0px;
+    left: 0;
+}
 .cheidi .container a:hover {
     text-decoration: none;
     border-bottom: 1px dotted #000;
@@ -199,6 +250,7 @@ img {
       height: 150px;
       background-size: 150px auto;
   }
+
 }
 @media (max-width: 600px) {
   .logo {
@@ -212,5 +264,8 @@ img {
   ul, p {
     width: 88%;
   }
-
+  #menu ul li {
+      display: block;
+      width: 100%;
+  }
 }

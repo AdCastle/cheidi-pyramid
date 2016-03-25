@@ -7,7 +7,9 @@
            <metal:block fill-slot="body">
               <div class="col-md-12" id="gifts">
                 <div class="content">
-                    <p>More information coming soon</p>
+                    <h3>Gift List</h3>
+                    <p>If you would like to give Heidi & Charlie a gift and are seeking inspiration check their giftlist from May onwards:<br />
+<a href="https://charlieandheidi.zankyou.com">charlieandheidi.zankyou.com</a></p>
               </div>
            </metal:block>
         </body>

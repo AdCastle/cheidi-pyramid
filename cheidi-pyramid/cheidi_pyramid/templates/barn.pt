@@ -13,9 +13,10 @@
                     Isle of Wight <br />
                     PO32 6LB
                     </p>
-                    <ul class="list-inline">
+                    <ul>
                         <li><a href="#map">Map</a></li>
                         <li><a href="#gmap">Google Map</a></li>
+                        <li><a href="/the-island#getting-to-the-island">Getting to the Island</a>
                     </ul>
                     <p><a name="map"></a><a href="/static/imgs/map.jpg"><img src="/static/imgs/map-low.jpg" alt="Map of the Venue" title="Click to enlarge" /></a></p>
                     <p><a name="gmap"></a><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40393.343074668046!2d-1.3017086212634532!3d50.746205179517226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4874636e7a905b75%3A0xc898d5ca46ba0858!2sMount+Rd%2C+East+Cowes%2C+Isle+of+Wight+PO32+6LB%2C+Verenigd+Koninkrijk!5e0!3m2!1snl!2snl!4v1458495740823" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></p>
