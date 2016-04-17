@@ -53,7 +53,20 @@
                         <li><span>Carisbrooke Castle</span></li>
                     </ul>
                     <h2>Swim</h2>
-                    <p></p>
+                    <h3>East Wight</h3>
+                    <ul>
+                        <li><a href="https://www.nationaltrust.org.uk/st-helens-duver/trails/links-and-ledges-walk-discover-the-duver">Priory Bay, St Helens</a></li>
+                        <li><a href="http://www.steephillcove-isleofwight.co.uk/steephill_cove.html">Steephill Cove, Ventnor</a></li>
+                        <li><a href="http://www.visitisleofwight.co.uk/things-to-do/bembridge-beach-p970391">Bembridge Ledge, Bembridge</a></li>
+                    </ul>
+
+                    <h3>West Wight</h3>
+
+                     <ul>
+                        <li><a href="http://www.visitisleofwight.co.uk/things-to-do/colwell-bay-p968881">Cowell Bay, Freshwater</a></li>
+                        <li><a href="http://www.nationaltrust.org.uk/compton-bay-and-downs">Compton Bay & Downs</a></li>
+                        <li><a href="http://www.visitisleofwight.co.uk/things-to-do/freshwater-bay-p969921">Freshwater Bay</a></li>
+                    </ul>
 
                     <h2>Getting to the Island</h2>
                     <a name="getting-to-the-island"></a>
